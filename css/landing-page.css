@@ -17,7 +17,9 @@ h6 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
-
+.navbar {
+  background-color: rgb(180, 134, 199);
+}
 nav h5 {
   text-align: center;
 }
@@ -26,8 +28,8 @@ nav a{
 }
 header.masthead {
   position: relative;
-  background-color: #ffffff;
-  background: url("../img/purple.jpg") no-repeat center center;
+  background-color: #ffffff00;
+  background: url("../img/yellow1.png") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -149,8 +151,7 @@ footer.footer {
   padding-bottom: 4rem;
 }
 #main-footer {
-  background: #0F3544;
-  background-color: #234654
+  background-color: rgb(180, 134, 199);
 }
 
 * {cursor: 
