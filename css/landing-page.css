@@ -18,7 +18,7 @@ h6 {
   font-weight: 700;
 }
 .navbar {
-  background-color: rgb(180, 134, 199);
+  background-color: rgb(249, 248, 250);
 }
 nav h5 {
   text-align: center;
@@ -28,7 +28,7 @@ nav a{
 }
 header.masthead {
   position: relative;
-  background-color: #ffffff00;
+  /* background-color: #ffffff00; */
   background: url("../img/yellow1.png") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
@@ -37,7 +37,7 @@ header.masthead {
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  /* background-color: #212529; */
   height: 100%;
   width: 100%;
   top: 0;
