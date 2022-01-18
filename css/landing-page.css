@@ -17,8 +17,11 @@ h6 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
+.navbar-brand {
+  background-color:rgb(255, 255, 255))
+}
 .navbar {
-  background-color: rgb(249, 248, 250);
+  background-color: rgb(255, 255, 255);
 }
 nav h5 {
   text-align: center;
