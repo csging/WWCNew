@@ -88,8 +88,31 @@ header.masthead h1 {
   background-size: cover;
 }
 
+
 @media (min-width: 768px) {
   .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.spa .spa-text {
+  padding: 3rem;
+  
+}
+
+spa-img {
+  min-height: 30rem;
+  background-size: cover;
+  
+  width: 100vw;
+  position: relative;
+  left: 50%;  
+  margin-left: -50vw;
+}
+
+
+@media (min-width: 768px) {
+  .spa .spa-text {
     padding: 7rem;
   }
 }
