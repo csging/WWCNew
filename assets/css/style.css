@@ -548,10 +548,52 @@ h6 {
   }
 }
 
-
-.map-section {
-  background-color:#9accb17a
+.spaPage{
+  background-color: rgba(97, 178, 195, 0.405)
 }
+/* ==========================
+Parallax
+============================= */
+
+#parallax1{
+	background-image: url(/assets/img/biglav.jpg);
+  background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:block;
+    position:relative;
+    z-index:120;
+    width: 100%;
+    height:100%
+}
+
+#parallax1:after {
+	/* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC); */
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	opacity: 0.9;
+	z-index: -1;
+}
+
+
+/* .edubox {
+  display: flex;
+  justify-content: space-between;
+  } */
+
+  .about{
+    background-color:rgba(177, 132, 199, 0.133)
+  }
+  .education{
+    background-color: rgba(101, 148, 116, 0.288);
+  }
+/* .map-section {
+  background-color:rgba(101, 148, 116);
+} */
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -594,7 +636,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #5cb874;
+  background: rgb(177, 132, 199);
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -725,8 +767,9 @@ section {
 # Our Clients
 --------------------------------------------------------------*/
 .clients .swiper-slide img {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   transition: 0.3s;
+  width: 100%;
 }
 
 .clients .swiper-slide img:hover {
