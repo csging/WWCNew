@@ -558,7 +558,7 @@ Parallax
 
 
 #parallax1{
-	background-image: url(assets\img\biglav.jpg);
+	background-image: url(img\biglav.jpg);
   background-size: cover;
     background-position: center;
     background-position-y: center;
