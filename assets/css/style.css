@@ -15,11 +15,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #5cb874;
+  color: rgb(140, 23, 198);
 }
 
 a:hover {
-  color: #80c792;
+  color: rgb(177, 132, 199);
   text-decoration: none;
 }
 
@@ -151,6 +151,7 @@ h6 {
 */
 .navbar {
   padding: 0;
+  position: top;
 }
 
 .navbar ul {
@@ -560,7 +561,7 @@ Parallax
   background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    display:block;
+    display:cover;
     position:relative;
     z-index:120;
     width: 100%;
